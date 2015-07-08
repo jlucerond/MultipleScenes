@@ -1,0 +1,30 @@
+
+/* Class = "UITabBarItem"; title = "Sign In"; ObjectID = "14P-8z-Sj4"; */
+"14P-8z-Sj4.title" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Red"; ObjectID = "1tU-bE-itR"; */
+"1tU-bE-itR.normalTitle" = "Red";
+
+/* Class = "UITabBarItem"; title = "Colors"; ObjectID = "JYT-F2-YLD"; */
+"JYT-F2-YLD.title" = "Colours";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "S1s-wb-hRb"; */
+"S1s-wb-hRb.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Blue"; ObjectID = "Tae-rK-IVl"; */
+"Tae-rK-IVl.normalTitle" = "Blue";
+
+/* Class = "UINavigationItem"; title = "Colors"; ObjectID = "fYh-gN-Pdd"; */
+"fYh-gN-Pdd.title" = "Colours";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "g9m-cZ-JYi"; */
+"g9m-cZ-JYi.normalTitle" = "Retain";
+
+/* Class = "UITextField"; placeholder = "Enter Your Name"; ObjectID = "hah-RD-s6B"; */
+"hah-RD-s6B.placeholder" = "Enter Your Name";
+
+/* Class = "UITabBarController"; title = "Tab Bar Controller"; ObjectID = "tsK-TY-RZ6"; */
+"tsK-TY-RZ6.title" = "Tab Bar Controller";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "uOc-kP-wBC"; */
+"uOc-kP-wBC.normalTitle" = "Cancel";

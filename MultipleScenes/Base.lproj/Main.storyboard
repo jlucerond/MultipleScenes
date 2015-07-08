@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tsK-TY-RZ6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tsK-TY-RZ6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -14,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="K97-64-nng"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WG6-vi-ke0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1s-wb-hRb">
-                                <rect key="frame" x="164" y="300" width="48" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1s-wb-hRb">
+                                <rect key="frame" x="276" y="285" width="48" height="30"/>
                                 <state key="normal" title="Sign In">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -33,25 +33,26 @@
                                     <constraint firstAttribute="height" constant="21" id="Z9w-zj-VfG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="AzX-TX-jx8" firstAttribute="top" secondItem="B8u-fy-B97" secondAttribute="bottom" constant="46" id="GUD-xR-zsF"/>
+                            <constraint firstAttribute="centerX" secondItem="S1s-wb-hRb" secondAttribute="centerX" id="IsH-Q0-3VS"/>
+                            <constraint firstAttribute="centerY" secondItem="S1s-wb-hRb" secondAttribute="centerY" id="aj9-aD-wEy"/>
                             <constraint firstItem="AzX-TX-jx8" firstAttribute="leading" secondItem="WG6-vi-ke0" secondAttribute="leadingMargin" constant="31" id="fc2-OC-2rl"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sign In" id="14P-8z-Sj4"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="userNameLabel" destination="AzX-TX-jx8" id="Nn7-FS-6cx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HhX-5P-Mr3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1265.5" y="-497.5"/>
+            <point key="canvasLocation" x="1281" y="-488"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="Z9F-nF-tXE">
@@ -62,7 +63,7 @@
                         <viewControllerLayoutGuide type="bottom" id="sct-kt-rZr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9q3-3u-AZQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hah-RD-s6B">
@@ -73,8 +74,8 @@
                                     <outlet property="delegate" destination="fW6-c6-C0I" id="Egz-iJ-bFU"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9m-cZ-JYi">
-                                <rect key="frame" x="297" y="126" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9m-cZ-JYi">
+                                <rect key="frame" x="266" y="126" width="65" height="30"/>
                                 <state key="normal" title="Save">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -94,7 +95,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="signInTextField" destination="hah-RD-s6B" id="FGT-Ee-Ycf"/>
                     </connections>
@@ -102,7 +102,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cux-YI-aBS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="fk1-Rw-f16" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1878.5" y="-497.5"/>
+            <point key="canvasLocation" x="1980" y="-488"/>
         </scene>
         <!--Colors-->
         <scene sceneID="ufC-wZ-h7g">
@@ -113,11 +113,20 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tU-bE-itR">
-                                <rect key="frame" x="79" y="198" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tae-rK-IVl">
+                                <rect key="frame" x="549" y="513" width="31" height="30"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IbV-6K-wi5" kind="show" identifier="blue" id="Y3K-I0-VkS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tU-bE-itR">
+                                <rect key="frame" x="20" y="513" width="30" height="30"/>
                                 <state key="normal" title="Red">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -126,24 +135,28 @@
                                     <segue destination="IbV-6K-wi5" kind="show" identifier="red" id="PuK-e8-rtE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tae-rK-IVl">
-                                <rect key="frame" x="237" y="198" width="31" height="30"/>
-                                <state key="normal" title="Blue">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="IbV-6K-wi5" kind="show" identifier="blue" id="Y3K-I0-VkS"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1tU-bE-itR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="6vi-cp-GSD"/>
+                            <constraint firstItem="1tU-bE-itR" firstAttribute="top" secondItem="Tae-rK-IVl" secondAttribute="top" id="CyN-za-OqS"/>
+                            <constraint firstItem="1tU-bE-itR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="IkV-es-Mjx"/>
+                            <constraint firstItem="1tU-bE-itR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="53" id="fUK-5w-dnS"/>
+                            <constraint firstAttribute="trailing" secondItem="Tae-rK-IVl" secondAttribute="trailing" constant="20" symbolic="YES" id="hrd-CB-2b4"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="1tU-bE-itR" secondAttribute="bottom" constant="8" symbolic="YES" id="lYA-1Z-X9o"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IkV-es-Mjx"/>
+                                <exclude reference="fUK-5w-dnS"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Colors" id="fYh-gN-Pdd"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1878.5" y="388.5"/>
+            <point key="canvasLocation" x="1946" y="382"/>
         </scene>
         <!--Colorful View Controller-->
         <scene sceneID="ixS-RN-BR5">
@@ -154,15 +167,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wBQ-Z3-WLO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zj7-ya-xfB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvR-o2-PZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2334.5" y="388.5"/>
+            <point key="canvasLocation" x="2660" y="382"/>
         </scene>
         <!--Colors-->
         <scene sceneID="P4n-Pc-97g">
@@ -170,7 +182,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2iU-ge-7As" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Colors" id="JYT-F2-YLD"/>
                     <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZWb-KC-ejC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

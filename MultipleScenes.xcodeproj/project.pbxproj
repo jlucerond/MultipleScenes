@@ -49,6 +49,7 @@
 		D8C818DB1B45B7320083D222 /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
 		D8C818DD1B45B7390083D222 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		D8C818DE1B45B7390083D222 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		D8EBFEC31B4C5A12000CFD34 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +283,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D8C818BC1B45B3880083D222 /* Base */,
+				D8EBFEC31B4C5A12000CFD34 /* en-GB */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -450,6 +452,7 @@
 				D8C818D31B45B3890083D222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8C818D41B45B3890083D222 /* Build configuration list for PBXNativeTarget "MultipleScenesTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +461,7 @@
 				D8C818D61B45B3890083D222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
